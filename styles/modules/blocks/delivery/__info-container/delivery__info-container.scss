@@ -1,0 +1,13 @@
+.delivery__info-container {
+  display: flex;
+  margin-top: 14px;
+  gap: 14px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__info-container {
+    margin-top: 8px;
+    gap: 8px;
+    flex-direction: column;
+  }
+}

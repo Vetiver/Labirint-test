@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,WAAW;EACpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,gDAAgD;EAClE,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;CAEnB;;AAED,AAAA,mBAAmB,AAAA,QAAQ,GAAG,yBAAyB,CAAC;EACpD,gBAAgB,EAAE,6CAA6C;CAChE",
+    "sources": [
+        "delivery__checkbox-image.scss"
+    ],
+    "names": [],
+    "file": "delivery__checkbox-image.css"
+}

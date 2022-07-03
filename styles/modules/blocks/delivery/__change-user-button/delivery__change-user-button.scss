@@ -1,0 +1,9 @@
+.delivery__change-user-button {
+  @include resetButtonStyles();
+  width: 24px;
+  height: 24px;
+  background: url('../../../../../images/pictures/arrow.alt.down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 14px;
+}

@@ -1,0 +1,15 @@
+.ordering__popup-button {
+  @include resetButtonStyles();
+  display: none;
+  width: 76px;
+  height: 18px;
+  margin-top: 16px;
+  margin-left: 30px;
+  grid-area: popupButt;
+}
+
+@media screen and (max-width: 360px) {
+  .ordering__popup-button {
+    display: inline;
+  }
+}

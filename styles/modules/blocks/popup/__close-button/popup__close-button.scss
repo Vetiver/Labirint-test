@@ -1,0 +1,16 @@
+.popup__close-button {
+  @include resetButtonStyles();
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  gap: 10px;
+  width: 328px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+  border-radius: 4px;
+  cursor: pointer;
+}

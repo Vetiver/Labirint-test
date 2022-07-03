@@ -1,0 +1,18 @@
+.deliveru__place-name {
+  @include resetListStyles();
+  width: 360px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $main-size;
+  line-height: 28px;
+  color: #1A1A1A;
+  grid-area: placeName;
+}
+
+@media screen and (max-width: 360px) {
+  .deliveru__place-name {
+    width: 260px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

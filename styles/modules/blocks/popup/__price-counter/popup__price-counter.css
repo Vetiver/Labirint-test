@@ -1,0 +1,8 @@
+.popup__price-counter {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+}
+/*# sourceMappingURL=popup__price-counter.css.map */

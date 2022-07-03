@@ -1,0 +1,26 @@
+@mixin pageTheme($background-color, $color) {
+  // в page для смены темы страницы
+  background-color: $background-color;
+  color: $color;
+}
+
+
+@mixin resetListStyles() {
+  // для ul и ol
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin resetLinkStyles($color) {
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin resetButtonStyles() {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: $transparent;
+  cursor: pointer;
+}

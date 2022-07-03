@@ -1,0 +1,19 @@
+.ordering {
+  max-width: 100%;
+  background: $lightGray;
+  display: grid; 
+  grid-template-columns: 2fr 1fr 1fr; 
+  grid-template-areas: 
+    "button total finalPrice"; 
+}
+
+@media screen and (max-width: 360px) {
+  .ordering {
+    width: 360px;
+    grid-template-columns: 119px 1fr 1fr; 
+    grid-template-rows: 1fr 2fr; 
+    grid-template-areas: 
+    "total finalPrice popupButt"
+    "button button button"; 
+  }
+}

@@ -1,0 +1,10 @@
+.delivery__mobile-user-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 16px;
+}
+/*# sourceMappingURL=delivery__mobile-user-menu.css.map */

@@ -1,0 +1,11 @@
+.delivery__name-container {
+  max-width: 672px;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 360px){
+  .delivery__name-container{
+    max-width: 360px;
+  }
+  
+}

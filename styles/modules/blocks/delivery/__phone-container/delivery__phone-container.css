@@ -1,0 +1,22 @@
+.delivery__phone-container {
+  max-width: 287px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__phone-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 32px;
+    max-width: 360px;
+  }
+}
+/*# sourceMappingURL=delivery__phone-container.css.map */

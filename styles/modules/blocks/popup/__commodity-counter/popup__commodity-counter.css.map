@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACxB,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "popup__commodity-counter.scss"
+    ],
+    "names": [],
+    "file": "popup__commodity-counter.css"
+}

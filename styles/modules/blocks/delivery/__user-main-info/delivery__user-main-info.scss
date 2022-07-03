@@ -1,0 +1,19 @@
+.delivery__user-main-info {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $main-size;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  margin-top: 5px;
+  margin-left: 14px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__user-main-info {
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.13px;
+  }
+}

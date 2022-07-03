@@ -1,0 +1,21 @@
+.ordering__total {
+  @include resetListStyles();
+  width: 357px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $main-size;
+  line-height: 28px;
+  margin-top: 49px;
+  margin-left: 729px;
+  grid-area: total;
+}
+
+@media screen and (max-width: 360px) {
+  .ordering__total {
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    width: 159px;
+  }
+}

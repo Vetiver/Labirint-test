@@ -1,0 +1,20 @@
+.delivery__adres-price {
+  @include resetListStyles();
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: $main-size;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  grid-area: adresPrice;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__adres-price {
+    justify-content: flex-start;
+    font-size: 17px;
+    line-height: 21px;
+  }
+}

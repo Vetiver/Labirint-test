@@ -1,0 +1,7 @@
+.popup__name {
+  @include resetListStyles();
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 14px;
+}

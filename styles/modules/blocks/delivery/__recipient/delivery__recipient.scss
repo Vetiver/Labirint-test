@@ -1,0 +1,16 @@
+.delivery__recipient {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $delivery-title;
+  line-height: 37px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__recipient {
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: 24px;
+  }
+}

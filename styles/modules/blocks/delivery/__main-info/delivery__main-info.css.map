@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,IAAI;EACT,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "delivery__main-info.scss"
+    ],
+    "names": [],
+    "file": "delivery__main-info.css"
+}

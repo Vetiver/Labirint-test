@@ -1,0 +1,18 @@
+.ordering__final-price {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $header-size;
+  line-height: 44px;
+  margin-top: 38px;
+  grid-area: finalPrice;
+}
+
+@media screen and (max-width: 360px) {
+  .ordering__final-price {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+  
+}

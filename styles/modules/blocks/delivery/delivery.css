@@ -1,0 +1,10 @@
+.delivery {
+  max-width: 1117px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery {
+    max-width: 359px;
+  }
+}
+/*# sourceMappingURL=delivery.css.map */

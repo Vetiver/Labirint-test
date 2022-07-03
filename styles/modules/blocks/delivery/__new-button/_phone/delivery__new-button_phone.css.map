@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EAC1B,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,MAAM;CAChB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,2BAA2B,CAAC;IAC1B,UAAU,EAAE,GAAG;IACf,WAAW,EAAE,IAAI;IACjB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;GACb",
+    "sources": [
+        "delivery__new-button_phone.scss"
+    ],
+    "names": [],
+    "file": "delivery__new-button_phone.css"
+}

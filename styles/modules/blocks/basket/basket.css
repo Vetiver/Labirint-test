@@ -1,0 +1,12 @@
+.basket {
+  max-width: 625px;
+  padding-left: 82px;
+  border-left: 1px solid gray;
+}
+
+@media screen and (max-width: 360px) {
+  .basket {
+    display: none;
+  }
+}
+/*# sourceMappingURL=basket.css.map */

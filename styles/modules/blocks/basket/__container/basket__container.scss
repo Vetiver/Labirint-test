@@ -1,0 +1,5 @@
+.basket__container {
+  @include resetListStyles();
+  margin-top: 30px;
+  border-bottom: 1px solid  #D6D6D6;;
+}

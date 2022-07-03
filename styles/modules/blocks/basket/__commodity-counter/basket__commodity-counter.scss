@@ -1,0 +1,8 @@
+.basket__commodity-counter {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $delivery-title;
+  line-height: 37px;
+  margin-top: 40px;
+}

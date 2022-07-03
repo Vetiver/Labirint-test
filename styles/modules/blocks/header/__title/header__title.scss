@@ -1,0 +1,18 @@
+.header__title {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $header-size;
+  line-height: 44px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 43px;
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 360px) {
+  .header__title {
+    font-size: $mobile-header-size;
+    line-height: 32px;
+    margin-left: 16px;
+  }  
+}

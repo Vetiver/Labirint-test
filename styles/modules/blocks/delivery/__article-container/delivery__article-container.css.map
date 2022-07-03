@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,CAAC;EAC3B,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,GAAG;CACT",
+    "sources": [
+        "delivery__article-container.scss"
+    ],
+    "names": [],
+    "file": "delivery__article-container.css"
+}

@@ -1,0 +1,11 @@
+.delivery__slider-buttons-container {
+  display: flex;
+  gap: 4px;
+  margin-left: 509px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__slider-buttons-container {
+    display: none;
+  }
+}

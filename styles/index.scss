@@ -1,0 +1,87 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts/ptrootui.css);
+
+
+@import "./modules/mixins.scss";
+@import "./modules/variables.scss";
+
+/* page */
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__container/page__container.scss";
+
+/* header */
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__title/header__title.scss";
+
+/* main */
+@import "./modules/blocks/main/main.scss";
+
+/* delivery */
+@import "./modules/blocks/delivery/delivery.scss";
+@import "./modules/blocks/delivery/__content-container/delivery__content-container.scss";
+@import "./modules/blocks/delivery/__title-buttons-container/delivery__title-buttons-container.scss";
+@import "./modules/blocks/delivery/__title/delivery__title.scss";
+@import "./modules/blocks/delivery/__slider-buttons-container/delivery__slider-buttons-container.scss";
+@import "./modules/blocks/delivery/__slider-button-left/delivery__slider-button-left.scss";
+@import "./modules/blocks/delivery/__slider-button-right/delivery__slider-button-right.scss";
+@import "./modules/blocks/delivery/__slider-container/delivery__slider-container.scss";
+@import "./modules/blocks/delivery/__slider-track/delivery__slider-track.scss";
+@import "./modules/blocks/delivery/__slider-item/delivery__slider-item.scss";
+@import "./modules/blocks/delivery/__delivery-method/delivery__delivery-method.scss";
+@import "./modules/blocks/delivery/__place-name/deliveru__place-name.scss";
+@import "./modules/blocks/delivery/__adres-price/delivery__adres-price.scss";
+@import "./modules/blocks/delivery/__add-adres-button/delivery__add-adres-button.scss";
+@import "./modules/blocks/delivery/__add-adres-text/delivery__add-adres-text.scss";
+@import "./modules/blocks/delivery/__date-container/deliveri__date-container.scss";
+@import "./modules/blocks/delivery/__timing/delivery__timing.scss";
+@import "./modules/blocks/delivery/__timing-date/delivery__timing-date.scss";
+@import "./modules/blocks/delivery/__time/delivery__time.scss";
+@import "./modules/blocks/delivery/__timing-another/deliveri__timing-another.scss";
+@import "./modules/blocks/delivery/__checkbox-container/delivery__checkbox-container.scss";
+@import "./modules/blocks/delivery/__checkbox/delivery__checkbox.scss";
+@import "./modules/blocks/delivery/__checkbox-text/delivery__checkbox-text.scss";
+@import "./modules/blocks/delivery/__recipient/delivery__recipient.scss";
+@import "./modules/blocks/delivery/__info-container/delivery__info-container.scss";
+@import "./modules/blocks/delivery/__name-container/delivery__name-container.scss";
+@import "./modules/blocks/delivery/__phone-container/delivery__phone-container.scss";
+@import "./modules/blocks/delivery/__main-info/delivery__main-info.scss";
+@import "./modules/blocks/delivery/__title-name/delivery__title-name.scss";
+@import "./modules/blocks/delivery/__user-main-info/delivery__user-main-info.scss";
+@import "./modules/blocks/delivery/__change-user-button/delivery__change-user-button.scss";
+@import "./modules/blocks/delivery/__new-button/delivery__new-button.scss";
+@import "./modules/blocks/delivery/__select/delivery__select.scss";
+@import "./modules/blocks/delivery/__new-button/_phone/delivery__new-button_phone.scss";
+@import "./modules/blocks/delivery/__article-container/delivery__article-container.scss";
+@import "./modules/blocks/delivery/__checkbox-image/delivery__checkbox-image.scss";
+@import "./modules/blocks/delivery/__new-button-mobile/delivery__new-button-mobile.scss";
+@import "./modules/blocks/delivery/__mobile-user-menu/delivery__mobile-user-menu.scss";
+
+/* basket */
+@import "./modules/blocks/basket/basket.scss";
+@import "./modules/blocks/basket/__commodity-counter/basket__commodity-counter.scss";
+@import "./modules/blocks/basket/__container/basket__container.scss";
+@import "./modules/blocks/basket/__count-element/basket__count-element.scss";
+@import "./modules/blocks/basket/__name/basket__name.scss";
+@import "./modules/blocks/basket/__price-counter/basket__price-counter.scss";
+
+/* ordering */
+@import "./modules/blocks/ordering/ordering.scss";
+@import "./modules/blocks/ordering/__accept-button/ordering__accept-button.scss";
+@import "./modules/blocks/ordering/__accept-button-text/ordering__accept-button-text.scss";
+@import "./modules/blocks/ordering/__total/ordering__total.scss";
+@import "./modules/blocks/ordering/__final-price/ordering__final-price.scss";
+@import "./modules/blocks/ordering/__popup-button/ordering__popup-button.scss";
+@import "./modules/blocks/ordering/__button-text/ordering__button-text.scss";
+
+/* popup */
+@import "./modules/blocks/popup/popup.scss";
+@import "./modules/blocks/popup/_open/popup_open.scss";
+@import "./modules/blocks/popup/__container/popup__container.scss";
+@import "./modules/blocks/popup/__commodity-counter/popup__commodity-counter.scss";
+@import "./modules/blocks/popup/__container-basket/popup__container-basket.scss";
+@import "./modules/blocks/popup/__count-element/popup__count-element.scss";
+@import "./modules/blocks/popup/__name/popup__name.scss";
+@import "./modules/blocks/popup/__price-counter/popup__price-counter.scss";
+@import "./modules/blocks/popup/__close-button-container/popup__close-button-container.scss";
+@import "./modules/blocks/popup/__close-button/popup__close-button.scss";
+@import "./modules/blocks/popup/__button-close-text/popup__button-close-text.scss";

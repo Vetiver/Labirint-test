@@ -1,0 +1,15 @@
+.delivery__checkbox-image {
+    margin: -32px;
+    display: inline-flex;
+    width: 25px;
+    height: 24px;
+    background-image: url(../../../../../images/pictures/GroupDis.png);
+    cursor: pointer;
+    z-index: 0;
+    margin-top: 16px;
+    
+}
+
+.delivery__checkbox:checked + .delivery__checkbox-image {
+    background-image: url(../../../../../images/pictures/Group.png);
+  }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "delivery__timing.scss"
+    ],
+    "names": [],
+    "file": "delivery__timing.css"
+}

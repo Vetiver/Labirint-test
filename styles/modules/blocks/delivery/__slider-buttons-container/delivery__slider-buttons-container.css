@@ -1,0 +1,14 @@
+.delivery__slider-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  margin-left: 509px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__slider-buttons-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=delivery__slider-buttons-container.css.map */

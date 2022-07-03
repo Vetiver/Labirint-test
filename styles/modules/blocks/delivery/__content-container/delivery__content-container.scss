@@ -1,0 +1,14 @@
+.delivery__content-container {
+  margin-left: 43px;
+  margin-top: 40px;
+  margin-right: 82px;
+  
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__content-container {
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+}

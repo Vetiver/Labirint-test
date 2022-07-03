@@ -1,0 +1,14 @@
+.delivery__new-button_phone {
+  width: 160px;
+  display: inline;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__new-button_phone {
+    margin-top: 8px;
+    margin-left: 16px;
+    width: 50px;
+    height: 69px;
+  }
+}
+/*# sourceMappingURL=delivery__new-button_phone.css.map */

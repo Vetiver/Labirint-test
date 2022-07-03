@@ -1,0 +1,11 @@
+.delivery__checkbox {
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-top: 16px;
+  z-index: 5px;
+}
+/*# sourceMappingURL=delivery__checkbox.css.map */

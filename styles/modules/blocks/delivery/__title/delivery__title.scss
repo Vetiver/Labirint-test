@@ -1,0 +1,18 @@
+.delivery__title {
+  @include resetListStyles();
+  width: 399px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $delivery-title;
+  line-height: 37px;
+
+}
+
+@media screen and (max-width: 369px) {
+  .delivery__title {
+    font-size: $mobile-content-title;
+    line-height: 26px;
+    width: 200px;
+  }
+  
+}

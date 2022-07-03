@@ -1,0 +1,17 @@
+.ordering__accept-button-text {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $delivery-title;
+  line-height: 37px;
+  letter-spacing: 0.5px;
+  color: $white;
+}
+
+@media screen and (max-width: 360px) {
+  .ordering__accept-button-text {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  
+}

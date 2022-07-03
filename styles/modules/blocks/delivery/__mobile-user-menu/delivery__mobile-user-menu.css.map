@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EAC1B,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "delivery__mobile-user-menu.scss"
+    ],
+    "names": [],
+    "file": "delivery__mobile-user-menu.css"
+}

@@ -1,0 +1,20 @@
+.delivery__add-adres-text {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 400;
+  font-size: $main-size;
+  line-height: 28px;
+  color: #065CC2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__add-adres-text {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+.delivery__add-adres-text:hover {
+  opacity: 0.5;
+}

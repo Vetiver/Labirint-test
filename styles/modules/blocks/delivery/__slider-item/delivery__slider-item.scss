@@ -1,0 +1,27 @@
+.delivery__slider-item {
+  max-width: 541px;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  display: grid; 
+  grid-template-columns: 3fr 1fr; 
+  grid-template-areas: 
+    "deliveryMethod adresPrice"
+    "placeName adresPrice"; 
+  padding: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__slider-item {
+    grid-template-columns: 1fr; 
+    grid-template-rows: 40px 24px 1fr;
+    grid-template-areas: 
+      "deliveryMethod"
+      "adresPrice"
+      "placeName"; 
+    max-width: 300px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+.delivery__title-name {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 400;
+  font-size: $mini-title;
+  line-height: 21px;
+  margin-left: 14px;
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__title-name {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.13px;
+    margin-bottom: 0;
+    
+  }
+}

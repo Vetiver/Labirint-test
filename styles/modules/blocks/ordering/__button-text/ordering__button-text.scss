@@ -1,0 +1,8 @@
+.ordering__button-text {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #065CC2;
+}

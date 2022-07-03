@@ -1,0 +1,19 @@
+.delivery__timing-date {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $main-size;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__timing-date {
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 16px;
+  }
+}

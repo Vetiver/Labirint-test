@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,0BAA0B,CAAC;EACzB,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,0BAA0B,CAAC;IACzB,cAAc,EAAE,GAAG;IACnB,aAAa,EAAE,IAAI;IACnB,SAAS,EAAE,KAAK;GACjB",
+    "sources": [
+        "delivery__phone-container.scss"
+    ],
+    "names": [],
+    "file": "delivery__phone-container.css"
+}

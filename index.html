@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="lending" />
+    <meta name="author" content="Дмитрий Сережкин" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Test</title>
+  </head>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <h1 class="header__title">Оформление заказа</h1>
+      </header>
+      <main class="main">
+        <section class="delivery">
+          <div class="delivery__content-container">
+            <div class="delivery__title-buttons-container">
+              <h3 class="delivery__title">Доставка</h3>
+              <div class="delivery__slider-buttons-container">
+                <button type="button" disabled="true" class="delivery__slider-button-left"><img src="./images/pictures/Vector-left.svg" alt="Vector-left"></button>
+                <button type="button" class="delivery__slider-button-right"><img src="./images/pictures/Vector-right.svg" alt="Vector-right"></button>
+              </div>
+            </div>
+            <div class="delivery__slider-container">
+              <ul class="delivery__slider-track">
+                <li class="delivery__slider-item">
+                  <h4 class="delivery__delivery-method">Почта России, курьер — 24-26 сент.</h4>
+                  <p class="deliveru__place-name">ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</p>
+                  <p class="delivery__adres-price">+367 ₽</p>
+                </li>
+                <li class="delivery__slider-item">
+                  <div class="delivery__adres">
+                    <h4 class="delivery__delivery-method">Лабиринт, курьер — 25 сент.</h4>
+                    <p class="deliveru__place-name">Можайское шоссе, д. 21, кв. 50, Москва, 121471</p>
+                  </div>
+                  <p class="delivery__adres-price"></p>
+                </li>
+            </div>
+            <button type="button" class="delivery__add-adres-button"><p class="delivery__add-adres-text">Выбрать новое место и способ</p></button>
+            <div class="deliveri__date-container">
+              <div class="delivery__article-container">
+                <article class="delivery__timing">
+                <p id="first__date" class="delivery__timing-date">пн, 24 сен — ср, 26 сен</p>
+                <p class="delivery__time">10:00–19:00</p>
+              </article>
+              <article class="delivery__timing">
+                <p id="second__date" class="delivery__timing-date">чт, 27 сен — пт, 28 сен</p>
+                <p class="delivery__time">10:00–19:00</p>
+              </article>
+              </div>
+              <button type="button" class="deliveri__timing-another"><p class="delivery__add-adres-text">Другие дата и время</p></button>
+            </div>
+            <label class="delivery__checkbox-container">
+              <input type="checkbox" class="delivery__checkbox">
+              <span class="delivery__checkbox-image"></span>
+              <span class="delivery__checkbox-text">Viber/СМС уведомления о статусе заказа</span>
+            </label>
+            <label class="delivery__checkbox-container">
+              <input type="checkbox" checked class="delivery__checkbox">
+              <span class="delivery__checkbox-image"></span>
+              <span class="delivery__checkbox-text">Оставить у двери (бесконтактная доставка)</span>
+            </label>
+            <div class="delivery__mobile-user-menu">
+              <h3 class="delivery__recipient">Получатель</h3>
+              <button type="button" class="delivery__new-button-mobile"><p class="delivery__select">Новый получатель</p></button>
+            </div>
+            <div class="delivery__info-container">
+              <div class="delivery__name-container">
+                <div class="delivery__main-info">
+                  <div class="delivery__inside-container">
+                    <p class="delivery__title-name">Имя и фамилия</p>
+                    <p class="delivery__user-main-info">Вольфганг Вениаминович Константинопольский</p>
+                  </div>
+                  <button type="button" class="delivery__change-user-button"></button>
+                </div>
+                <button type="button" class="delivery__new-button"><p class="delivery__select">Новый получатель</p></button>
+              </div>
+              <div class="delivery__phone-container">
+                <div class="delivery__main-info">
+                  <div class="delivery__inside-container">
+                    <p class="delivery__title-name">Контактный телефон</p>
+                    <p class="delivery__user-main-info">+7 910 234-56-78</p>
+                  </div>
+                  <button type="button" class="delivery__change-user-button"></button>
+                </div>
+                <button type="button" class="delivery__new-button delivery__new-button_phone"><p class="delivery__select">Новый телефон</p></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="basket">
+          <h2 class="basket__commodity-counter">В заказе 4 товара (2 кг)</h2>
+          <ul class="basket__container">
+            <li class="basket__count-element">
+              <p class="basket__name">Цена товаров</p>
+              <p class="basket__price-counter">29 456 ₽</p>
+            </li>
+            <li class="basket__count-element">
+              <p class="basket__name">Все скидки</p>
+              <p class="basket__price-counter">–7 732 ₽</p>
+            </li>
+            <li class="basket__count-element">
+              <p class="basket__name">Скидка за предоплату</p>
+              <p class="basket__price-counter">–3%</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+   
+      <div class="popup">
+        <div class="popup__container">
+          <div class="popup__content-container">
+              <h2 class="popup__commodity-counter">В заказе 4 товара (2 кг)</h2>
+            <ul class="popup__container-basket">
+              <li class="popup__count-element">
+                <p class="popup__name">Цена товаров</p>
+                <p class="popup__price-counter">29 456 ₽</p>
+              </li>
+              <li class="popup__count-element">
+                <p class="popup__name">Все скидки</p>
+                <p class="popup__price-counter">–7 732 ₽</p>
+              </li>
+            </ul>
+            <ul class="popup__container-basket">
+              <li class="popup__count-element">
+                <p class="popup__name">К оплате:</p>
+                <p class="popup__price-counter">21 072 ₽</p>
+              </li>
+            </ul>
+          </div>
+          <div class="popup__close-button-container">
+            <button type="button" class="popup__close-button"><p class="popup__button-close-text">Закрыть подробности</p></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="ordering">
+      <button type="button" class="ordering__popup-button"><p class="ordering__button-text">Подробнее</p></button>
+      <button type="button" class="ordering__accept-button"><p class="ordering__accept-button-text">Оформить и оплатить</p></button>
+      <p class="ordering__total">Итого к оплате:</p>
+      <p class="ordering__final-price">21 072 ₽</p>
+    </footer>
+    <!-- /.page__container -->
+    <script type="module" src="./components/index.js"></script>
+  </body>
+</html>

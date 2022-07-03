@@ -1,0 +1,8 @@
+.popup__container-basket {
+  @include resetListStyles();
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #D6D6D6;
+}

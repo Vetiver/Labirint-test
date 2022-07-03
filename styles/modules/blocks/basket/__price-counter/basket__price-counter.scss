@@ -1,0 +1,10 @@
+.basket__price-counter {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 700;
+  font-size: $main-size;
+  line-height: 28px;
+  text-align: right;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-left: 200px;
+}

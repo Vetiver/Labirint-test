@@ -1,0 +1,14 @@
+.delivery__phone-container {
+  max-width: 287px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__phone-container {
+    flex-direction: row;
+    margin-bottom: 32px;
+    max-width: 360px;
+  }
+  
+}

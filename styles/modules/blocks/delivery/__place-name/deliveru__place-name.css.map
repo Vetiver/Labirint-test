@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "deliveru__place-name.scss"
+    ],
+    "names": [],
+    "file": "deliveru__place-name.css"
+}

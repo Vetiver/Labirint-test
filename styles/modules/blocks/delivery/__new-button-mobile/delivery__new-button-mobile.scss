@@ -1,0 +1,11 @@
+.delivery__new-button-mobile {
+  @include resetButtonStyles();
+  display: none;
+  width: 145px;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__new-button-mobile {
+    display: inline;
+  }
+}

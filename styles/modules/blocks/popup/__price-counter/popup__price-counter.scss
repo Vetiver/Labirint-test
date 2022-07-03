@@ -1,0 +1,7 @@
+.popup__price-counter {
+  @include resetListStyles();
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}

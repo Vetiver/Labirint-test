@@ -1,0 +1,16 @@
+.deliveri__timing-another {
+  @include resetButtonStyles();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 360px) {
+  .deliveri__timing-another {
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+}

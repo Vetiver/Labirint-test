@@ -1,0 +1,23 @@
+.delivery__select {
+  @include resetListStyles();
+  font-style: normal;
+  font-weight: 400;
+  font-size: $main-size;
+  line-height: 28px;
+  color: #065CC2;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+  .delivery__select {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  
+}
+
+.delivery__select:hover {
+  opacity: 0.5;
+}
