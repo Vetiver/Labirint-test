@@ -1,11 +1,11 @@
-.deliveri__date-container {
+.delivery__date-container {
   display: flex;
   margin-top: 30px;
   gap: 14px;
 }
 
 @media screen and (max-width: 360px) {
-  .deliveri__date-container {
+  .delivery__date-container {
     flex-direction: column;
     margin-top: 24px;
     gap: 0px;

@@ -364,7 +364,7 @@
   opacity: 0.5;
 }
 
-.deliveri__date-container {
+.delivery__date-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +373,7 @@
 }
 
 @media screen and (max-width: 360px) {
-  .deliveri__date-container {
+  .delivery__date-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -443,7 +443,7 @@
   }
 }
 
-.deliveri__timing-another {
+.delivery__timing-another {
   border: none;
   padding: 0;
   margin: 0;

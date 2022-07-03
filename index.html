@@ -20,7 +20,7 @@
             <div class="delivery__title-buttons-container">
               <h3 class="delivery__title">Доставка</h3>
               <div class="delivery__slider-buttons-container">
-                <button type="button" disabled="true" class="delivery__slider-button-left"><img src="./images/pictures/Vector-left.svg" alt="Vector-left"></button>
+                <button type="button" class="delivery__slider-button-left"><img src="./images/pictures/Vector-left.svg" alt="Vector-left"></button>
                 <button type="button" class="delivery__slider-button-right"><img src="./images/pictures/Vector-right.svg" alt="Vector-right"></button>
               </div>
             </div>
@@ -38,20 +38,25 @@
                   </div>
                   <p class="delivery__adres-price"></p>
                 </li>
+              </ul>
             </div>
-            <button type="button" class="delivery__add-adres-button"><p class="delivery__add-adres-text">Выбрать новое место и способ</p></button>
-            <div class="deliveri__date-container">
+            <button type="button" class="delivery__add-adres-button">
+              <span class="delivery__add-adres-text">Выбрать новое место и способ</span>
+            </button>
+            <div class="delivery__date-container">
               <div class="delivery__article-container">
-                <article id="secondActive" class="delivery__timing">
-                <p id="first__date" class="delivery__timing-date">пн, 24 сен — ср, 26 сен</p>
-                <p class="delivery__time">10:00–19:00</p>
-              </article>
-              <article class="delivery__timing">
-                <p id="second__date" class="delivery__timing-date">чт, 27 сен — пт, 28 сен</p>
-                <p class="delivery__time">10:00–19:00</p>
-              </article>
+                <div id="secondActive" class="delivery__timing">
+                  <p id="first__date" class="delivery__timing-date">пн, 24 сен — ср, 26 сен</p>
+                  <p class="delivery__time">10:00–19:00</p>
+                </div>
+                <div class="delivery__timing">
+                  <p id="second__date" class="delivery__timing-date">чт, 27 сен — пт, 28 сен</p>
+                  <p class="delivery__time">10:00–19:00</p>
+                </div>
               </div>
-              <button type="button" class="deliveri__timing-another"><p class="delivery__add-adres-text">Другие дата и время</p></button>
+              <button type="button" class="delivery__timing-another">
+                <span class="delivery__add-adres-text">Другие дата и время</span>
+              </button>
             </div>
             <label class="delivery__checkbox-container">
               <input type="checkbox" class="delivery__checkbox">
@@ -65,7 +70,9 @@
             </label>
             <div class="delivery__mobile-user-menu">
               <h3 class="delivery__recipient">Получатель</h3>
-              <button type="button" class="delivery__new-button-mobile"><p class="delivery__select">Новый получатель</p></button>
+              <button type="button" class="delivery__new-button-mobile">
+                <span class="delivery__select">Новый получатель</span>
+              </button>
             </div>
             <div class="delivery__info-container">
               <div class="delivery__name-container">
@@ -76,7 +83,9 @@
                   </div>
                   <button type="button" class="delivery__change-user-button"></button>
                 </div>
-                <button type="button" class="delivery__new-button"><p class="delivery__select">Новый получатель</p></button>
+                <button type="button" class="delivery__new-button">
+                  <span class="delivery__select">Новый получатель</span>
+                </button>
               </div>
               <div class="delivery__phone-container">
                 <div class="delivery__main-info">
@@ -86,7 +95,9 @@
                   </div>
                   <button type="button" class="delivery__change-user-button"></button>
                 </div>
-                <button type="button" class="delivery__new-button delivery__new-button_phone"><p class="delivery__select">Новый телефон</p></button>
+                <button type="button" class="delivery__new-button delivery__new-button_phone">
+                  <span class="delivery__select">Новый телефон</span>
+                </button>
               </div>
             </div>
           </div>
@@ -132,14 +143,20 @@
             </ul>
           </div>
           <div class="popup__close-button-container">
-            <button type="button" class="popup__close-button"><p class="popup__button-close-text">Закрыть подробности</p></button>
+            <button type="button" class="popup__close-button">
+              <span class="popup__button-close-text">Закрыть подробности</span>
+            </button>
           </div>
         </div>
       </div>
     </div>
     <footer class="ordering">
-      <button type="button" class="ordering__popup-button"><p class="ordering__button-text">Подробнее</p></button>
-      <button type="button" class="ordering__accept-button"><p class="ordering__accept-button-text">Оформить и оплатить</p></button>
+      <button type="button" class="ordering__popup-button">
+        <span class="ordering__button-text">Подробнее</span>
+      </button>
+      <button type="button" class="ordering__accept-button">
+        <span class="ordering__accept-button-text">Оформить и оплатить</span>
+      </button>
       <p class="ordering__total">Итого к оплате:</p>
       <p class="ordering__final-price">21 072 ₽</p>
     </footer>
